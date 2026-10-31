@@ -8,7 +8,8 @@ SuitC is a bridge suit combination analyser by Gerrit A. van der Velde
 (Leiden). It is plain C with no dependencies beyond the standard library.
 The repository also holds dds (a multi-layout double-dummy solver), playc (a
 suit combination enumerator), Gerrit's database scripts (bash/Perl), examples
-and documentation. See README.md and docs/.
+and documentation. See README.md and docs/. `experiments/` holds work that is
+not part of the SuitC build (each with its own CMakeLists.txt and README).
 
 The git history up to Rev 2.022 was reconstructed from Gerrit's RCS archives.
 Those commits are authored by him and carry an `RCS-History-Id` trailer. Do

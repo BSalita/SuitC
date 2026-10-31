@@ -15,6 +15,11 @@ dds/extern.h
 # Database runs and downloaded database files
 *.xp
 
+# Merge dumps written by experiments/bitmask-merge (suitc_dump)
+dump*_a.txt
+dump*_b.txt
+dump*_out.txt
+
 # Editors and tools
 .vscode/
 .vs/

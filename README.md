@@ -49,6 +49,7 @@ is 1.5048. [docs/output.md](docs/output.md) explains how to read the game tree.
 | [examples/](examples) | Example input and output for dds and for the playing-strength studies |
 | [docs/](docs) | Documentation |
 | [tests/](tests) | Regression tests |
+| [experiments/](experiments) | Experiments that are not part of the SuitC build, such as a [faster parallel merge](experiments/bitmask-merge) |
 
 ## Getting SuitC
 

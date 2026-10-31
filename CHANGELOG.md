@@ -8,6 +8,13 @@ releases, with binaries for all platforms, are tagged `v<revision>`. The
 entries are Gerrit's own comments from his RCS history files, which are kept
 unchanged in [docs/history](docs/history).
 
+## Unreleased
+
+- [experiments/bitmask-merge](experiments/bitmask-merge): a profile of where
+  SuitC spends its time on large combinations (the East-West merges), and a
+  stand-alone parallel bit-mask version of that merge that keeps identical
+  strategies 5–14 times faster on 32 threads. SuitC itself is unchanged.
+
 ## v2.022
 
 Gerrit's latest revision. The results are identical to Rev 2.011 for all
